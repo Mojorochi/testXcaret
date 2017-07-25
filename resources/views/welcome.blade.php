@@ -8,8 +8,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-  <script src="/js.js"></script>
-  <link href="/css.css" rel="stylesheet" type="text/css">
+  <script src="/js.min.js"></script>
+  <link href="/css.min.css" rel="stylesheet" type="text/css">
   <link href="/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
