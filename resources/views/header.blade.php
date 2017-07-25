@@ -48,7 +48,7 @@
     <nav class="main-menu">
 	
 		  <ul>
-		  <li><a href="#" >Quiero </a> </li>
+		  <li>Quiero  </li>
 		  <li><a href="#" >Saber Más del parque... </a> </li>
 		  <li><a href="#" >Comprar mi entrada </a> </li>
 		  <li><a href="#" >Ahorrar Más </a> </li>
