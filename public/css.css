@@ -1,0 +1,361 @@
+
+.header{
+	
+text-transform: uppercase;
+font-family: Abel!important;
+}
+
+
+.header .top-menu{
+	/* border:solid 1px blue; */
+	height:40px;
+	PADDING: 10PX;
+	background-color: black;
+	color: white;
+}
+
+.header .top-menu ul{
+	list-style: none;
+	float: right;
+}
+.header .top-menu ul li{
+	display:inline-block;
+	min-width: 84px;
+	margin-right:10px;
+	BORDER-RIGHT: SOLID 1PX;
+	/* text-align: center; */
+	padding-right: 26px;
+}
+
+.header .top-menu ul li:last-child{
+	border:none;
+}
+
+
+.header .social-menu{
+	/* border: solid 1px grey; */
+	height: 90px;
+}
+
+
+
+
+.header .main-menu{
+	/* border:solid 1px orange; */
+	height: 58px;
+}
+
+
+.header .logo{
+	
+width: 210px;
+}
+
+
+.header .social-menu{
+	
+}
+
+.header .social-buttons{
+	float:right;
+}
+
+
+
+.header .social-buttons ul{
+	list-style: none;
+	float: right;
+	padding: 30px 0;
+}
+.header .social-buttons ul li{
+	display:inline-block;
+	/* min-width: 84px; */
+	margin-right:10px;
+	BORDER-RIGHT: SOLID 1PX;
+	/* text-align: center; */
+	padding-right: 6px;
+}
+
+.header .social-buttons ul li:last-child{
+	border:none;
+}
+
+
+.header  ul li.no-border{
+	border:none;
+}
+
+
+
+
+.header .main-menu ul{
+	list-style: none;
+	padding: 0;
+}
+.header .main-menu ul li{
+	float: left;
+	width: 205px;
+	margin-right: -1px;
+	BORDER: SOLID 1PX;
+	text-align: center;
+	padding-top: 18px;
+	height: 58px;
+}
+
+.header .main-menu ul li:first-child{
+	background-color:black;
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Breadcrumbs{
+	font-size:16px;
+	/* height: 60px; */
+	padding: 18px 0;
+}
+
+.Breadcrumbs span{
+	color:grey;
+}
+
+.Breadcrumbs span::after{
+	content:"/";
+}
+
+.Breadcrumbs span:last-child::after{
+	content:"";
+}
+
+.Breadcrumbs span:last-child{
+	font-weight:bold;
+	color:black;
+}
+
+
+.wrapper{
+	width:1024px;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+.main.container{
+/* border: solid 1px black; */
+}
+
+
+.main.container .content{
+	
+	
+}
+
+.main.container .offers {
+	width: 223px;
+	float: right;
+	padding: 0px;
+}
+
+
+
+
+.main.container .top-visual {
+	background-color:grey;
+	width: 690px;
+	float:left;
+}
+
+
+.main.container .top-visual .item {
+	
+}
+
+#myGoogleMap{
+	height: 518px;
+}
+
+.main.container .top-visual.carousel-active #myGoogleMap {
+	display:none;
+}
+
+.main.container .top-visual.map-active #myCarousel {
+	display:none;
+}
+
+.main.container .top-visual.carousel-active .buttons .left {
+	background:white;
+	color:black;
+}
+.main.container .top-visual.map-active .buttons .right {
+	background: #efeeee;
+	color:black;
+}
+
+
+
+
+.main.container .top-visual .buttons a{
+	width:50%;
+	float:left;
+	height: 66px;
+	border-top: solid white 1px;
+	background-color:black;
+	padding: 23px 0px;
+	text-align: center;
+	font-size: 17px;
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+
+
+.main.container .top-visual .buttons a:first-child{
+	border-right: solid white 1px;
+}
+
+
+
+
+
+
+
+.main.container .left-column{
+	width: 692px;
+	float: left;
+}
+
+
+.main.container .right-column{
+	float: right;
+	width: 290px;
+}
+
+h1{
+	font-size:20px;
+}
+
+.main.container .text{
+	
+	
+}
+
+
+
+.main.container .atractivos{
+	
+	
+}
+
+
+.main.container .atractivos a{
+	display:block;
+	width: 484px;
+	border:solid 1px red;
+	margin: 25px 10px 10px 10px;
+}
+
+.main.container .atractivos  img{
+	width: 203px;
+	float:left;
+}
+.main.container .atractivos  p{
+	width: 213px;
+	float:right;
+}
+
+
+
+
+.main.container .offers{
+	
+	
+}
+
+.main.container .offers .head{
+	background: black;
+	color: white;
+	text-align: center;
+	font-size: 21px;
+	padding: 7px;
+}
+.main.container .offers .head span{font-size:10px;display: block;margin-top: -3px;}
+
+.main.container .offers .body{
+	
+	
+}
+.main.container .offers .addition{
+	font-size: 11px;
+	margin-top: 20px;
+}
+
+.main.container .offers #buyNow{
+	
+	
+}
+
+.regular-price{
+	font-size:10px;
+}
+.regular-price span{
+	text-decoration: line-through;
+}
+
+.online-price{
+	font-weight:bold;
+}
+.online-price span{
+	
+}
+
+
+.online-price{
+	font-size: 18px !important;
+}
+
+
+
+
+
+
+
+
+.clearfix{
+	clear:both;
+}
+
+
+
+
+
+.grey-bg{
+	background-color: #efeeee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
