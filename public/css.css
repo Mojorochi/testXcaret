@@ -1,16 +1,24 @@
 
+body{
+	font-family: Abel!important;
+}
+
 .header{
 	
 text-transform: uppercase;
-font-family: Abel!important;
+}
+.header a{
+	color: black;
 }
 
 
 .header .top-menu{
-	/* border:solid 1px blue; */
 	height:40px;
 	PADDING: 10PX;
 	background-color: black;
+	color: white;
+}
+.header .top-menu a{
 	color: white;
 }
 
@@ -23,7 +31,6 @@ font-family: Abel!important;
 	min-width: 84px;
 	margin-right:10px;
 	BORDER-RIGHT: SOLID 1PX;
-	/* text-align: center; */
 	padding-right: 26px;
 }
 
@@ -104,6 +111,9 @@ width: 210px;
 
 .header .main-menu ul li:first-child{
 	background-color:black;
+}
+
+.header .main-menu ul li:first-child a{
 	color:white;
 }
 
@@ -155,7 +165,7 @@ width: 210px;
 
 
 .main.container{
-/* border: solid 1px black; */
+
 }
 
 
@@ -264,7 +274,7 @@ h1{
 .main.container .atractivos a{
 	display:block;
 	width: 484px;
-	border:solid 1px red;
+	color: black;
 	margin: 25px 10px 10px 10px;
 }
 
@@ -286,12 +296,16 @@ h1{
 }
 
 .main.container .offers .head{
-	background: black;
-	color: white;
-	text-align: center;
-	font-size: 21px;
-	padding: 7px;
+background: black;
+color: white;
+text-align: center;
+font-size: 21px;
+padding: 7px;
 }
+
+.main.container .offers .product{margin-top: 32px;width: 222px;margin-bottom: 37px;}
+
+
 .main.container .offers .head span{font-size:10px;display: block;margin-top: -3px;}
 
 .main.container .offers .body{
@@ -299,17 +313,25 @@ h1{
 	
 }
 .main.container .offers .addition{
-	font-size: 11px;
-	margin-top: 20px;
+	
+font-size: 11px;
+	
+margin-top: 22px;
 }
 
 .main.container .offers #buyNow{
 	
+background: black;
 	
+color: white;
+	
+text-transform: uppercase;
+	
+margin-top: 40px;
 }
 
 .regular-price{
-	font-size:10px;
+	font-size: 12px;
 }
 .regular-price span{
 	text-decoration: line-through;
@@ -324,33 +346,79 @@ h1{
 
 
 .online-price{
-	font-size: 18px !important;
+	
+font-size: 18px !important;
 }
 
 
 
-
-
-
-
+#btnQuote{
+	background-color:black;
+	color:white;
+	padding: 10px 48px;
+}
 
 .clearfix{
 	clear:both;
 }
 
-
-
-
-
 .grey-bg{
 	background-color: #efeeee;
 }
 
+.main.container .offers .more  p{
+	font-size:10px;
+	font-style:italic;
+}
+.main.container .offers .more  ul{
+	list-style: none;
+	width: 221px;
+	padding: 0;
+	margin-top: 10px;
+}
+.main.container .offers .more  ul li{
+	display:inline-block;
+	width: 71px;
+	BORDER: SOLID 1PX;
+	text-align: center;
+	height: 71px;
+	overflow: hidden;
+	padding-top: 12px;
+}
+.main.container .offers .more  ul li span.big{
+	font-size: 20px;
+	display: block;
+}
 
+.main.container .offers .more  ul li span.small{
+	font-size: 9px;
+	text-transform:uppercase;
+	display: block;
+	width: 67px;
+}
 
+.main.container .credit-card-info{
+	border:solid 1px black;
+	width:1000px;
+	height: 116px;
+	padding: 19px 22px;
+	margin-top: 25px;
+	text-align: center;
+}
 
+.main.container .credit-card-info p{
+	font-size: 17px;
+	margin: 10px;
+}
 
-
+.main.container .credit-card-info label{
+	font-size: 14px;
+	width: 124px;
+	margin-top: -3px;
+}
+.main.container .credit-card-info img{
+	/* float:right; */
+}
 
 
 

@@ -4,11 +4,11 @@
   
   <div class="top-menu">
   <ul>
-  <li>Atención al cliente  </li>
-  <li><i class="fa fa-user"></i> Acceder / Registrar  </li>
-  <li><i class="fa fa-shopping-cart"></i> Carrito  </li>
-  <li>MXN-<i class="fa fa-usd"></i>  </li>
-  <li><i class="fa fa-flag"></i> Idioma  </li>
+  <li><a href="#" >Atención al cliente  </a> </li>
+  <li><a href="#" ><i class="fa fa-user"> </i> Acceder / Registrar  </a></a></li>
+  <li><a href="#" ><i class="fa fa-shopping-cart"></i> Carrito   </a></li>
+  <li><a href="#" >MXN-<i class="fa fa-usd"></i>  </a> </li>
+  <li><a href="#" ><i class="fa fa-flag"></i> Idioma   </a></li>
   
   </ul>
   
@@ -27,14 +27,14 @@
 		<div class="social-buttons">
 	
 		  <ul>
-		  <li><i class="fa fa-home"></i> Inicio  </li>
-		  <li><i class="fa fa-camera"></i> Mis fotos </li>
-		  <li><i class="fa fa-question"></i> Preguntas Frecuentes  </li>
-		  <li class="no-border"><i class="fa fa-facebook"></i>  </li>
-		  <li class="no-border"><i class="fa fa-twitter"></i>  </li>
-		  <li class="no-border"><i class="fa fa-instagram"></i>  </li>
-		  <li class="no-border"><i class="fa fa-youtube"></i>  </li>
-		  <li class="no-border"><i class="fa fa-pinterest"></i>  </li>
+		  <li>					<a href="#" ><i class="fa fa-home"></i> Inicio                   </a>   </li>
+		  <li>					<a href="#" ><i class="fa fa-camera"></i> Mis fotos             </a>  </li>
+		  <li>					<a href="#" ><i class="fa fa-question"></i> Preguntas Frecuentes </a>   </li>
+		  <li class="no-border"><a href="#" ><i class="fa fa-facebook"></i>    				     </a>  </li>
+		  <li class="no-border"><a href="#" ><i class="fa fa-twitter"></i>     				   	</a>  </li>
+		  <li class="no-border"><a href="#" ><i class="fa fa-instagram"></i>   				 	</a>  </li>
+		  <li class="no-border"><a href="#" ><i class="fa fa-youtube"></i>     				  	</a>  </li>
+		  <li class="no-border"><a href="#" ><i class="fa fa-pinterest"></i>   				 	</a>  </li>
 		  
 		  </ul>
 	
@@ -48,11 +48,11 @@
     <nav class="main-menu">
 	
 		  <ul>
-		  <li>Quiero </li>
-		  <li>Saber Más del parque... </li>
-		  <li>Comprar mi entrada </li>
-		  <li>Ahorrar Más </li>
-		  <li>Ver la galería de... </li>
+		  <li><a href="#" >Quiero </a> </li>
+		  <li><a href="#" >Saber Más del parque... </a> </li>
+		  <li><a href="#" >Comprar mi entrada </a> </li>
+		  <li><a href="#" >Ahorrar Más </a> </li>
+		  <li><a href="#" >Ver la galería de... </a> </li>
 		  
 		  </ul>
 	</nav>

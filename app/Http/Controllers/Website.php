@@ -36,8 +36,16 @@ class Website extends Controller
 		$data=(object)Util::getXcaretData($url);
 			
 		if(!isset($data->id)){
-			$data["error"]=true;
+			abort(404);
+		}else{
+			preg_match_all('/([^?&=#]+)=([^&#]*)/',$data->videoYT,$m);
+			$data->paramsYT=array_combine( $m[1], $m[2]);
 		}
+		
+		
+		
+		
+		
 		
 		
 		return View::make('welcome',['data'=>$data]);
